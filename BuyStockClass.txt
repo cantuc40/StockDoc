@@ -1,0 +1,32 @@
+Void buy_stock(Stock S)
+Void access_account_wallet(W)
+{
+def
+   func1(account,price,quantity,decision):
+	stock_quantity = -1
+	balance = -1
+	account ={}
+	account.update({'balance': balance})
+	account.update({'stock_quantity': stock_quantity})
+	print(account)
+	print('Enter price')
+	price=float(input())
+	print('Enter quantity')
+	quantity=int(input())
+	print ('Enter True to buy and False to sell ')
+	decision=bool (input())
+	if decision==True:
+    	if (balance>= fprice):
+        	balance=balance-fprice
+        	stock_quantity= stock_quant+quantity
+    	else:
+        	t=balance//price
+        	balance=balance-(t*price)
+        	stock_quantity=stock_quantity+t
+	else:
+    	if (quant>=quantity):
+        	balance=balance+fprice
+  	      stock_quant=stock_quant-quantity
+    	else:
+        	selling=stock_quantity*price
+        	balance=balance+ selling     
