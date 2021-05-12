@@ -62,7 +62,7 @@ class stock:
     #change the price of the stock and update total_invested
     def setPrice(self, new_price):
         self.price = new_price
-        update_information(self)
+        self.update_information()
         
     #Alter price changes of the stock
     def setPrice_Changes(self, new_price_change):
@@ -71,7 +71,7 @@ class stock:
     #change the number of stocks invested and update total_invested
     def set_numberInvested(self, new_number_invested):
         self.number_invested = new_number_invested
-        update_information(self)
+        self.update_information()
     
     #total invested is updated
     def update_information(self):
